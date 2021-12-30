@@ -1,0 +1,299 @@
+body{
+	background-image: url(images/fon3.jpg);
+	background-repeat: no-repeat;
+}
+.topblock{
+	font-size: 26px;
+	font-family: cursive;
+}
+.a1{
+	text-decoration: none;
+	border: 5px solid blue;
+	border-radius: 10px;
+}
+.a1:hover{
+	color: yellow;
+	background-color: blue;
+}
+.design{
+	float: right;
+	color: gray;
+	font-family: cursive;
+	top: 3%;
+}
+hr{
+	width: 95%;
+	height: 5px;
+	background-color: violet;
+	border: 0px;
+}
+.logo{
+	left: 5%;
+	top: 0%;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #eaeaea;
+    color: #006089;
+    border: 4px solid #006089;
+    border-radius: 100px;
+    font-size: 16px;
+    padding: 8px 40px; 
+    transition: all 0.8s ease;
+}
+.button:hover{
+    text-decoration: none; 
+    background-color: #006089;
+    color: #ffeded;
+    border-color: #006089;
+}
+.button1{
+	background: none;
+	color: white;
+	font-size: 14px;
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	text-align: center;
+	width: 250px;
+	border-radius: 0px;
+	border: 2px solid #2980b9;
+	outline: none;
+	transition: .3s;
+}
+.button1:hover{
+	border-color: #f1c40f;
+	background: #f1c40f;
+	color: #16a085;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.pform{
+	font-size: 16px;
+	font-family: cursive;
+}
+.aform{
+	color: #f1c40f;
+}
+.aform:focus{
+	color: #d35400;
+}
+.form1{
+	background-color: gold;
+	font-family: cursive;
+	border: 2px solid gray;
+	border-radius: 15px;
+	width: 300px;
+	height: 340px;
+	position: fixed; top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.bodylogin{
+	font-family: sans-serif;
+	background-color: #2c3e50;
+	background-image: none;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+h1{
+	text-transform: uppercase;
+}
+.form{
+	margin:140px auto;
+	width: 450px;
+	padding: 30px;
+	background-color: #34495e;
+	color: white;
+	text-align: center;
+	top: 50%; left: 50%;
+}
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="submit"]{
+	background: none;
+	color: white;
+	font-size: 14px;
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	text-align: center;
+	width: 250px;
+	border-radius: 0px;
+	border: 2px solid #2980b9;
+	outline: none;
+	transition: .3s;
+}
+.form input[type="text"]:hover,
+.form input[type="password"]:hover{
+	width: 300px;
+	border-color: #f1c40f;
+}
+.form input[type="text"]::placeholder,
+.form input[type="password"]::placeholder{
+	color: white;
+}
+.form input[type="submit"]:hover{
+	border-color: #f1c40f;
+	background: #f1c40f;
+	color: #16a085;
+	cursor: pointer;
+}
+.blockright{
+	float: right;
+	font-family: Consolas;
+	font-size: 15px;
+	color: darkblue;
+}
+.blockleft{
+	float: left;
+	font-family: Consolas;
+	font-size: 15px;
+	color: blue;
+}
+.h2news{
+	font-size: 32px;
+}
+.game{
+	width: 210px;
+	height: 400px;
+	display: inline-block;
+	background-color: #52c0ab;
+	border-radius: 20px;
+	border: none;
+	text-align: center;
+	margin: 5px;
+}
+.imggame{
+	width: 200px;
+	height: 230px;
+	border: none;
+	border-radius: 10px;
+}
+.pricegame{
+	font-size: 20px;
+	font-family: monospace;
+	font-size: 18px
+}
+.pgames{
+	font-family: Consolas;
+	font-size: 26px;
+	color: green;
+}
+@media screen and (max-device-width: 768px){
+	div{
+		display: block;
+	}
+}
+.pnews{
+	color: green;
+	font-family: Bold;
+	font-size: 18px;
+}
+footer{
+	font-size: 20px;
+	font-family: cursive;
+	color: red;
+}
+.h1news{
+	color: #FF0000;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  outline: none; 
+}
+.topmenu {
+  backface-visibility: hidden;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  font-family: 'Exo 2', sans-serif;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 30px;
+  font-weight: bold;
+  color: #003559;
+  text-transform: uppercase;
+  transition: .4s ease-in-out;
+}
+.topmenu li a:hover {
+	color: #DC143C;
+}
+.submenu {
+  background: white;
+  border: 2px solid #003559;
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  width: 150px;
+  transform: perspective(600px) rotateX(-90deg);
+  transform-origin: 0% 0%;
+  transition: .6s ease-in-out;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: perspective(600px) rotateX(0deg);
+}
+.submenu li a {
+  color: gray;
+  font-size: 13px;
+  line-height: 36px;
+  padding: 0 25px;
+  font-family: 'Kurale', serif;
+  transition: .4s ease-in-out;
+}
+.aforum{
+	background-color: black;
+	width: auto;
+	height: 30px;
+	color: white;
+	font-size: 30px;
+	font-family: monospace;
+	text-align: left;
+}
+.aforum:hover{
+	background-color: #34495e;
+	border: 2px solid #9b59b6;
+}
+.aforum:active{
+	color: #DC143C;
+	border-radius: 10px;
+	border: 2px outside #9b59b6;
+}
+.galka{
+	width: 250px;
+	height: 250px;
+}
+.imggiveaway{
+	width: 50%;
+	height: 50%;
+	border: 2px solid gray;
+}
+textarea{
+	resize: none;
+	overflow: auto;
+	width: 450px;
+	height: 220px;
+	border-radius: 10px;
+}
